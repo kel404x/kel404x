@@ -13,13 +13,13 @@ export default function Page() {
          
           <div className="flex flex-col sm:flex-row items-center gap-4">
             <ThemeToggle />
-            <span className="text-sm">12-19-2024</span>
+            <span className="text-sm">v1.2.1</span>
           </div>
         </div>
         <Separator className="my-4 bg-zinc-200 dark:bg-zinc-700" />
         <div className="flex flex-col sm:flex-row justify-between items-center">
          
-          <span className="text-sm">v1.2.0</span>
+      
         </div>
       </header>
 
@@ -28,11 +28,10 @@ export default function Page() {
           <h2 className="mb-4 font-bold text-xl">ABOUT</h2>
           <div className="grid gap-4">
             <p className="leading-relaxed text-balance">
-            Hello, I am Kel. I like building stuff. Lately, I have been working with Solidity and JavaScript to bring some of ideas to life.
-
+              Hi, my name is kel. I like building things. 
             </p>
             <p className="leading-relaxed text-balance">
-            When not coding, I usually read about history or philosophy, scroll through random things online, produce music, or sometimes write a blog post.
+           
             </p>
           </div>
         </section>
@@ -63,6 +62,12 @@ export default function Page() {
               Prompt Engineering within a functional-oriented programming language
               </Link>
               <p className="text-sm text-zinc-600 dark:text-zinc-400">12-19-2024</p>
+            </article>
+            <article className="grid gap-1">
+              <Link href="/blog/nomenclature" className="font-bold hover:underline">
+              Nomenclature
+              </Link>
+              <p className="text-sm text-zinc-600 dark:text-zinc-400">1-18-2025</p>
             </article>
           </div>
         </section>
