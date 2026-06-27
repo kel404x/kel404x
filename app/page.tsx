@@ -49,6 +49,9 @@ export default function ResumePage() {
             <a href="https://www.linkedin.com/in/akhil-a-576b56288/" target="_blank" rel="noopener noreferrer">
               LinkedIn
             </a>
+            <a href="https://scholar.google.com/citations?user=tdZcFpoAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">
+              Scholar
+            </a>
             <Link href="/blog">Blog</Link>
           </div>  
         </div>
